@@ -1,8 +1,8 @@
 # The Password Game
 
-If you've been keeping up with the Internet for the past few years, chances are that you might have come across "[The Password Game](https://neal.fun/password-game/)". It's a broswer puzzle game created by Neal Agarwal.
+If you've been keeping up with the Internet for the past few years, chances are that you might have come across "[The Password Game](https://neal.fun/password-game/)". It's a browser puzzle game created by Neal Agarwal.
 
-The premise of the game is simple: create a password that follows all the given rules. This may seem easy at first since the game starts off with pretty standard rules that you'd expect in a regular password policy, however, the rules become increasingly strange and complicated and everything quickly esclates into a wonderful chaotic mess.
+The premise of the game is simple: create a password that follows all the given rules. This may seem easy at first since the game starts off with pretty standard rules that you'd expect in a regular password policy. However, the rules become increasingly strange and complicated as the game goes on, and everything quickly escalates into a wonderful chaotic mess.
 
 The Password Game first came into my knowledge about a year ago and immediately piqued my interest. I played the game for myself, but I only made it to Rule 24 out of a total of 35 rules. Between the constant maintenance required for Rule 23 and the search for a suitable answer to Rule 24, I was unable to split my attention between the two. After several failed attempts, I eventually gave up. 
 
