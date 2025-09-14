@@ -67,11 +67,24 @@ Although the year "00" technically does not exist in Gregorian calendar, the gam
 > 💡 Including smaller numbers in the password helps keep it simple and reduces the likelihood of failure in later steps.
 
 ### Rule 16: Your password must include the best move in algebraic chess notation. 𖣯
-This rule tells us to include the best move for the current position on the given chessboard in algebraic chess notation. The chess puzzles are not too difficult, but they can still be challenging if we're not familiar with playing chess. It did take me a moment to figure out, but I got it right eventually. I added "Ne6+" to the end of the password. Adding the number "6" to the password broke Rule 5 since the digits no longer add up to 25. So, I went back and changed the number from before from "45555" to "4455".
+This rule tells us to include the best move for the current position on the given chessboard in algebraic chess notation. The chess puzzles are not too difficult, but they can still be challenging if we're not familiar with playing chess. It did take me a moment to figure out, but I got it right eventually. I added "Ne6+" to the end of the password. Adding the number "6" to the password broke Rule 5 since the digits no longer add up to 25. So, I went back and changed the numbers in the beginning from "45555" to "4455".
 > **Ne6+** — **Knight** moves to the **e6** square with a **check**  
-**N** — Knight — the piece to move  
-**e6** — Target square  
-**+** — Check
+> **N** — Knight — The piece to move  
+> **e6** — File e, Rank 6 — The target square  
+> **+** — Check
 
 ### Rule 17: 🥚 ← This is my chicken Paul. He hasn't hatched yet, please put him in your password and keep him safe.
-I just copied and pasted the egg emoji to the end of the password. Pretty simple!
+I copied and pasted the egg emoji to the end of the password. Pretty simple!
+
+### Rule 18: The elements in your password must have atomic numbers that add up to 200.
+This rule accounts for all element symbols present in the password, whether they are one letter or two letters. In following previous rules, our current password included three element symbols: "V", "Ne", and "Na". I looked up the periodic table once again, calculated what other symbols will bring the total up to 200, and added "BaFm" to the beginning of the password.
+> V — Vanadium = 23  
+> Ne — Neon = 10  
+> Na — Sodium = 11  
+> Ba — Barium = 56  
+> Fm — Fermium = 100  
+> 23 + 10 + 11 + 56 + 100 = 200
+
+### Rule 19: All the vowels in your password must be bolded.
+While typing the solution to the previous rule, I accidently made all characters bolded. So, this one passed automatically.
+
