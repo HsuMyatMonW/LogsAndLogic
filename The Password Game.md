@@ -47,7 +47,7 @@ This rule tells us to include the name of one of the sponsors given. Out of the 
 ### Rule 9: The roman numerals in your password should multiply to 35.
 I pre-solved this in Rule 7.
 
-### Rule 10: Your password must inlcude this CAPTCHA: 🔡
+### Rule 10: Your password must inlcude this CAPTCHA: 🔣🗘
 This rule tells us to include the response to the text-based CAPTCHA. Rule 5 states that all the digits in the password must add up to 25, so I was reluctant to add more numbers. I reloaded the CAPTCHA until I got one without any numbers. I added the CAPTCHA response "ebcbx" to the end of the password.
 
 ### Rule 11: Your password must include today's Wordle answer.
@@ -65,3 +65,13 @@ This rule tells us to include the country given in the Google Street View / GeoG
 ### Rule 15: Your password must include a leap year.
 Although the year "00" technically does not exist in Gregorian calendar, the game treat it as a leap year. I presume it’s because the program checks if a number is a leap year using the modulo operator. In any case, I added "00" to the end of the password.
 > 💡 Including smaller numbers in the password helps keep it simple and reduces the likelihood of failure in later steps.
+
+### Rule 16: Your password must include the best move in algebraic chess notation. 𖣯
+This rule tells us to include the best move for the current position on the given chessboard in algebraic chess notation. The chess puzzles are not too difficult, but they can still be challenging if we're not familiar with playing chess. It did take me a moment to figure out, but I got it right eventually. I added "Ne6+" to the end of the password. Adding the number "6" to the password broke Rule 5 since the digits no longer add up to 25. So, I went back and changed the number from before from "45555" to "4455".
+> **Ne6+** — **Knight** moves to the **e6** square with a **check**  
+**N** — Knight — the piece to move  
+**e6** — Target square  
+**+** — Check
+
+### Rule 17: 🥚 ← This is my chicken Paul. He hasn't hatched yet, please put him in your password and keep him safe.
+I just copied and pasted the egg emoji to the end of the password. Pretty simple!
