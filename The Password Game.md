@@ -88,3 +88,15 @@ This rule accounts for all element symbols present in the password, whether they
 ### Rule 19: All the vowels in your password must be bolded.
 While typing the solution to the previous rule, I accidently made all characters bolded. So, this one passed automatically.
 
+### Rule 20: Oh no! Your password is on fire. Quick, put it out!
+The rule starts a fire (i.e., adds 🔥) at a random place in the password. The fire spreads quickly and burns away the adjacent characters (i.e., replaces the adjacent characters with 🔥). I moved quickly and put out the fire (i.e., deleted all 🔥) before it spread too much. Then, I had re-added the missing part of the password earlier.
+
+### Rule 21: Your password is not strong enough 🏋️‍♂️
+This rule tells us to add three 🏋️‍♂️ in the password. I added them to the beginning of the password.
+
+### Rule 22: Your password must contain one of the following affirmations: I am loved, I am worthy, I am enough
+I picked the first option just because, and I added "iamloved" to the beginning of the password. I also bolded the vowels to make sure the password does not break Rule 19.
+
+### Rule 23: Paul has hatched! Please don't forget to feed him, he eats three 🐛 every minute.
+Paul, previously 🥚 becomes a 🐔. We need to add 🐛 to the password to feed him. One 🐛 is deleted every 20 seconds. If we run out of 🐛 in the password, Paul starves. If we add too many, Paul gets overfed. I added about six 🐛 to the password, which gives me roughly 2 minutes to work on other things before I have to add more. This rule, in my opinion, is the most challenging rule of the game since it effectively adds a timer that we constantly have to maintain, and the time pressure significantly affects our ability to tackle other rules.
+> 💡 It's unclear exactly how many 🐛 will overfeed Paul. There's a delay before the Game Over screen appears, but in my testing, 6 is safe. At around 7 or 8, Paul gets overfed.
