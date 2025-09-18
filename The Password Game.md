@@ -102,7 +102,7 @@ Paul, previously 🥚 becomes a 🐔. We need to add 🐛 to the password to fee
 > 💡 It's unclear exactly how many 🐛 will overfeed Paul. There's a delay before the Game Over screen appears, but in my testing, 6 is safe. At around 7 or 8, Paul gets overfed.
 
 ### Rule 24: Your password must include the URL of a 11 minute 57 second long YouTube video.
-This rule is one of the most problematic rules in the game. It is already difficult enough to find a YouTube video with the exact length specified in the rule, but it also introduces a whole bunch of characters and numbers that interfere with the previous rules. Combined with the time pressure from Rule 23, it becomes really challenging to get pass this rule.I’ve tried finding YouTube videos with the specified lengths on my own in the past, but I wasn’t very successful. So this time around, I used the URLs provided in this [spreadsheet](https://drive.google.com/file/d/12A2Og_CD6IMQMwbWyb3tLVW0AAmLHG7g/view?usp=drivesdk), which include URLs for the all possible video lengths. I added the URL "https://youtube.com/watch?v=wBgqAKxujkEFly" to the beginning of the password. This broke Rule 18 since the URL contains the element symbols "B", "K", "Fl", and "Y". I changed the previously added element symbols "Ba", "Fm", and "Na" to "H" and "Ni" to make sure the atomic numbers add up to 200. I was also able to change the "Y" into a lowercase "y" so that it no longer counts as an element symbol.
+This rule is one of the most problematic rules in the game. It is already difficult enough to find a YouTube video with the exact length specified in the rule, but it also introduces a whole bunch of characters and numbers that interfere with the previous rules. Combined with the time pressure from Rule 23, it becomes really challenging to get pass this rule.I’ve tried finding YouTube videos with the specified lengths on my own in the past, but I wasn’t very successful. So this time around, I used the URLs provided in this [spreadsheet](https://drive.google.com/file/d/12A2Og_CD6IMQMwbWyb3tLVW0AAmLHG7g/view?usp=drivesdk), which include URLs for the all possible video lengths. I added the URL "https://youtube.com/watch?v=wBgqAKxujkEFly" to the beginning of the password. This broke Rule 18 since the URL contains the element symbols "B", "K", "Fl", and "Y". I changed the previously added element symbols "Ba", "Fm", and "Na" to "H" and "Ni" to make sure the atomic numbers add up to 200. I was also able to change the uppercase "Y" into a lowercase "y" so that it no longer counts as an element symbol.
 > V — Vanadium = 23  
 > Ne — Neon = 10  
 > B — Boron = 5  
@@ -111,3 +111,40 @@ This rule is one of the most problematic rules in the game. It is already diffic
 > H — Hydrogen = 1  
 > Ni — Nickel = 28  
 > 23 + 10 + 5 + 19 + 114 + 1 + 28 = 200
+
+### Rule 25: A sacrifice must be made. Pick 2 letters that you will no longer be able to use. ⌨
+Any letters we choose here can no longer be included in our password. I took some time to check whether each letter of the alphabet appears in our current password, and found that "z" is the only character that doesn't appear at least once. I then changed the month in the password from "April" to "June" to also free up the letter "r". I picked "r" and "z" as sacrifices.
+
+### Rule 26: Your password must contain twice as many italic characters as bold.
+To make sure that less than one-third of total characters are bold, I made it so that only the vowels are bold. Then, I changed the rest of the characters to italic. However, that was still not enough, so I ended up changing all characters to italic.
+
+### Rules 27: At least 30% of your password must be in Wingdings font.
+Changing the characters to Wingdings font will turn them into a bunch of symbols and make them very difficult to read. I figured that the first portion of our current password would not need additional changes for the upcoming rules, so I changed those characters to Wingdings font.
+
+### Rules 28: Your password must include this color in hex. ◼️
+I inspected the CSS code of the website and found the rgb values of the specified color. This converted to hex code "#1a222e". I added it to the end of the password and bolded the "a" and "e". I also need to re-adjust the digits in the password so that they add up to 25. I deleted the "1" after "June" and changed the other digits for "4455" to "435".
+> 1 + 2 + 2 + 2 + 4 + 3 + 5 + 6 = 25
+
+### Rule 29: All roman numerals must be in Times New Roman.
+I changed the font of "XXXV" to Times New Roman.
+
+### Rule 30: The font size of each digit must be equal to its square.
+This rule is not complicated but a bit tedious. I changed the font size of each digit to be the square of its value.
+
+### Rule 31: Every instance of the same letter must have a different font size.
+Another very tedious rule. I switched the first part of the password out of Wingdings font so I could see the characters. Then, I went through the password character by character from left to right, and changed the font size of duplicate characters to be different from the previous ones.
+
+### Rule 32: Your password must include the length of your password.
+This rule is a tricky one since the length of the password is always changing as more characters get added and the chicken eats more caterpillars. I decided to go with 108 for the time being since that was about how long the current password was. To add more digits, I had to delete a "4" and a "5" that I added previously. I added "108" to the end of the password while making sure that each digit has the font size of the square of its value.
+
+### Rule 33: The length of your password must be a prime number.
+The closest and most convenient prime number to the current length of the password is 109. I can easily achieve this by adding a few more caterpillars to the password. I changed the length of the password I added for the previous rule from "108" to "109". I also changed the "3" in the middle of the password to "2" to make sure the digits still add up to 25. Then, I added some caterpillars to match the 109-character length formatted the password to comply with Rule 30.
+
+### Rule 34: Uhhh let's skip this one.
+This rule automatically passes.
+
+### Rule 35: Your password must include the current time.
+By the time I got to this rule, it was around 12 o'clock at noon. Including the real time would require a lot of messing around with the numbers that are already in the password, so I decided to work around this by changing the system's clock. I changed the time to 12:55 am. This gave me enough time to fix the rest of the password while I waited for it to turn 1:01 am.I added '1:01' to the password and deleted the '2' that was in the middle of the password. I formatted the digits so that they comply with Rule 30, and maintained the exact number of caterpillars so the password length stayed at 109. When the clock ticked 1:01 am, I passed this final rule.
+
+### Please re-type your password
+After passing the final rule, the game asks, "Is this your final password?" If we answer "Yes", it will ask us to re-type the password. We can still see our password, but we can no longer select or copy it. I had known about this ahead of time, so I made a copy of the final password and put it in a text file as backup. However, I forgot that it would not retain the format of the password. I copied and pasted the password I had saved in the text file and attempted to match the format of the original password shown on screen. This proved to be quite impossible due to the different fonts and font sizes. I tried for about 30 minutes but did not manage to match the original password. I was really frustrated with myself for not keeping the copied original password in the clipboard and was pretty much ready to restart. Before I committed to restarting, I decided to look through my notes and recordings one last time. This is when I remembered that I could inspect the website and check the exact format of the characters in the original password, just like I did for the color rule previously. So, I inspected the webpage, checked the format of each character, and formatted the re-typed password character by character. Finally, after all that effort, I managed to get it right and officially beat the password game.
