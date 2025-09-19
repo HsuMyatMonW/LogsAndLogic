@@ -8,7 +8,7 @@ The Password Game first came into my knowledge about a year ago and immediately 
 
 That was until a month ago, when I stumbled upon a [video](https://youtu.be/-osyW_rpoQs?si=ac6onb_5X4Ck7H-G) explaining the [strategies and resources](https://www.speedrun.com/The_Password_Game/guides/y022w) that speedrunners use to beat the game in seconds. That's when I realised that I could follow some of these strategies to beat the game myself. So, I finally decided to attempt the game once again, but this time, I was determined to beat it.
 
-## Gameplay
+## How The Game Works
 
 The player is given an input text field with the prompt: "Please choose a password." Once the player starts typing a password, the game introduces the first password rule. When the player enters a password that complies with this rule, the game reveals the second rule, and so on.
 
@@ -149,6 +149,6 @@ By the time I got to this rule, it was around 12 o'clock at noon. Including the 
 ### Please re-type your password
 After passing the final rule, the game asks, "Is this your final password?" If we answer "Yes", it will ask us to re-type the password. We can still see our password, but we can no longer select or copy it. I knew about this ahead of time, so I made a copy of the final password in a text file as a backup. However, I forgot that it would not retain the format of the password. I copied and pasted the password I had saved in the text file and attempted to match the format of the original password shown on screen. This proved to be quite impossible due to the different fonts and font sizes. I tried for about 30 minutes but did not manage to match the original password. I was really frustrated with myself for not keeping the copied original password in the clipboard and was pretty much ready to restart. Before I committed to restarting, I decided to look through my notes and recordings one last time. Then I remembered I could inspect the website to check the exact formatting of each character in the original password, just like I did for the color rule. So, I inspected the webpage, checked the format of each character, and formatted the re-typed password character by character. Finally, after all that effort, I managed to get it right and officially beat the password game.
 
-## Final Password
+## The Final Password
 This is the final password with no formatting.  
 ` 109https://youtube.com/watch?v=wBgqAKxujkEFlyiamloved🏋️‍♂️🏋️‍♂️🏋️‍♂️HNi🌗June!1:01XXXVshellebcbxleastGhana00Ne6+🐔🐛#1a222e0 `
