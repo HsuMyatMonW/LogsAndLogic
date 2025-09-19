@@ -1,4 +1,4 @@
-# Logs And Logic
+# Tech Journal
 
 This repository is a personal journal for documenting technical labs, problems, challenges, and puzzles across various topics. It serves as a reference for the approaches I've taken, tools I've used, and lessons I've learned along the way.
 
